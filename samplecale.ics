@@ -6,6 +6,14 @@ METHOD:PUBLISH
 X-WR-CALNAME:Demo Property Airbnb Calendar
 
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260920
+SUMMARY:Airbnb (Reserved - Alex Turner)
+UID:demo-reservation-0@airbnb.com
+DESCRIPTION:Reservation URL: https://www.airbnb.com/reservation/itinerary?code=DEMO100
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261015
 SUMMARY:Airbnb (Reserved - John Doe)
