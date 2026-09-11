@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Mock Airbnb Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Demo Property Airbnb Calendar
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261015
+SUMMARY:Airbnb (Reserved - John Doe)
+UID:demo-reservation-1@airbnb.com
+DESCRIPTION:Reservation URL: https://www.airbnb.com/reservation/itinerary?code=DEMO101
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261025
+SUMMARY:Airbnb (Reserved - Jane Smith)
+UID:demo-reservation-2@airbnb.com
+DESCRIPTION:Reservation URL: https://www.airbnb.com/reservation/itinerary?code=DEMO102
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261108
+SUMMARY:Airbnb (Reserved - Michael Brown)
+UID:demo-reservation-3@airbnb.com
+DESCRIPTION:Reservation URL: https://www.airbnb.com/reservation/itinerary?code=DEMO103
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261228
+SUMMARY:Airbnb (Reserved - Sarah Wilson)
+UID:demo-reservation-4@airbnb.com
+DESCRIPTION:Reservation URL: https://www.airbnb.com/reservation/itinerary?code=DEMO104
+END:VEVENT
+
+END:VCALENDAR
